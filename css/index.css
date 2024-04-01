@@ -1,3 +1,21 @@
-a{
-    background-color: aqua;
-}
+div {
+    border: 2px solid lightcoral;
+  }
+  
+  div#contenedor {
+    border: 2px solid blueviolet;
+  }
+  div#cabecera {
+    border: 2px solid yellow;
+  }
+  #logo {
+    float: left;
+  }
+  #link {
+    float: right;
+    margin: 2px;
+      }
+      p{
+          clear: both;
+      }
+  
