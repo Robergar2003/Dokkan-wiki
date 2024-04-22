@@ -1,21 +1,43 @@
-/* Selectores de Clase */
-.clase-ejemplo {
-    /* Estilos aquí */
-  }
-  
-  /* Selectores Compuestos */
-  #contenedor .elemento {
-    /* Estilos aquí */
-  }
-  
-  /* Propiedades del texto */
-  body {
-    text-align: center; /* Ejemplo */
-  }
-  
-  /* Anchura y altura */
-  #contenido {
-    width: 80%; /* Ejemplo */
-    height: 400px; /* Ejemplo */
-  }
-  
+/* Propiedades CSS que intentaremos utilizar */
+header {
+  margin: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.contenedor-foro {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.temas-relacionados {
+  margin-top: 30px;
+}
+
+.temas-relacionados ul {
+  padding: 0;
+}
+
+.temas-relacionados li {
+  list-style-type: square;
+}

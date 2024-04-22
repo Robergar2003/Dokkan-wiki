@@ -1,20 +1,46 @@
-/* Pseudo-clases */
+/* Propiedades CSS que intentaremos utilizar */
+header {
+  margin: 15px;
+}
+
+main {
+  padding: 30px;
+}
+
+section {
+  border: 2px dashed #333;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 28px;
+  color: #666;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #9900cc;
+}
+
 a:hover {
-    color: red; /* Ejemplo */
-  }
-  
-  /* Pseudo-elementos */
-  p::before {
-    content: "►"; /* Ejemplo */
-  }
-  
-  /* Control de flujo de cajas */
-  #contenedor {
-    float: left; /* Ejemplo */
-  }
-  
-  /* Visualización en el modelo de cajas */
-  #elemento {
-    visibility: hidden; /* Ejemplo */
-  }
-  
+  font-weight: bold;
+}
+.contenedor-wiki {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contenido-relacionado {
+  margin-top: 20px;
+}
+
+.contenido-relacionado ul {
+  padding: 0;
+}
+
+.contenido-relacionado li {
+  list-style-type: circle;
+}

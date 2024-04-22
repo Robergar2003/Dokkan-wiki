@@ -8,14 +8,47 @@
 </head>
 <body>
   <header>
-    <h1 class="titulo">Formulario - Dragon Ball Z: Dokkan Battle</h1>
+    <h1 class="titulo">Registro - Dragon Ball Z: Dokkan Battle</h1>
   </header>
 
   <main>
-    <section>
-      <h2>Regístrate para más aventuras</h2>
-      <p>¡Completa el formulario a continuación para unirte a la comunidad de Dragon Ball Z: Dokkan Battle y comenzar tu viaje hacia la gloria!</p>
-      <!-- Aquí iría el formulario -->
+    <section class="contenedor-formulario">
+      <h2>¡Regístrate para unirte al foro!</h2>
+      <form>
+        <div class="campo">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="campo">
+          <label for="apellidos">Apellidos:</label>
+          <input type="text" id="apellidos" name="apellidos" required>
+        </div>
+        <div class="campo">
+          <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+          <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+        </div>
+        <div class="campo">
+          <label for="correo">Correo Electrónico:</label>
+          <input type="email" id="correo" name="correo" required>
+        </div>
+        <div class="campo">
+          <label for="confirmacion_correo">Confirmar Correo Electrónico:</label>
+          <input type="email" id="confirmacion_correo" name="confirmacion_correo" required>
+        </div>
+        <div class="campo">
+          <label for="contrasena">Contraseña:</label>
+          <input type="password" id="contrasena" name="contrasena" required>
+        </div>
+        <div class="campo">
+          <label for="nombre_foro">Nombre de Usuario para el Foro:</label>
+          <input type="text" id="nombre_foro" name="nombre_foro" required>
+        </div>
+        <div class="campo">
+          <label for="valor_relevante">Valor Relevante:</label>
+          <input type="text" id="valor_relevante" name="valor_relevante">
+        </div>
+        <button type="submit">Registrarse</button>
+      </form>
     </section>
   </main>
 
