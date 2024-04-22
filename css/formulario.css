@@ -1,6 +1,6 @@
 /* Fondo de imagen */
 body {
-  background-image: url("ruta/de/tu/imagen.jpg");
+  background-image: url("../img/Tierra.png");
   background-size: cover; /* Para ajustar la imagen al tamaño del cuerpo */
   background-position: center; /* Para centrar la imagen */
 }
@@ -12,7 +12,7 @@ body {
 
 /* Propiedades para el borde */
 #contenido {
-  border: 1px solid black; /* Ejemplo */
+  border: 1px solid white; /* Ejemplo */
 }
 
 /* Propiedades de las listas */
@@ -89,4 +89,14 @@ input[type="submit"]:hover {
 /* Profundidad (z-index) */
 .footer {
   z-index: 1;
+}
+h1 {
+  font-size: 32px;
+  background: linear-gradient(to right, yellow, red); /* Degradado de amarillo a rojo */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body{
+  color:white;
 }

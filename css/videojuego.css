@@ -43,7 +43,7 @@ a:hover {
 }
 /* Fondo de imagen */
 body {
-  background-image: url('ruta/de/tu/imagen.jpg');
+  background-image: url('../img/Tierra.png');
   background-size: cover; /* Para ajustar la imagen al tamaño del cuerpo */
   background-position: center; /* Para centrar la imagen */
 }
@@ -92,4 +92,13 @@ body {
 /* Profundidad (z-index) */
 .foro-anuncio {
   z-index: 1;
+}
+h1 {
+  font-size: 32px;
+  background: linear-gradient(to right, yellow, red); /* Degradado de amarillo a rojo */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body{
+  color:white;
 }
