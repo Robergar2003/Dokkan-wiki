@@ -1,0 +1,20 @@
+/* Selectores de atributo */
+input[type="text"] {
+    /* Estilos aquí */
+  }
+  
+  /* Posicionamiento flotante */
+  #formulario {
+    float: right; /* Ejemplo */
+  }
+  
+  /* Propiedades para el borde */
+  #contenido {
+    border: 1px solid black; /* Ejemplo */
+  }
+  
+  /* Propiedades de las listas */
+  ul {
+    list-style-type: circle; /* Ejemplo */
+  }
+  

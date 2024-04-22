@@ -1,0 +1,20 @@
+/* Pseudo-clases */
+a:hover {
+    color: red; /* Ejemplo */
+  }
+  
+  /* Pseudo-elementos */
+  p::before {
+    content: "►"; /* Ejemplo */
+  }
+  
+  /* Control de flujo de cajas */
+  #contenedor {
+    float: left; /* Ejemplo */
+  }
+  
+  /* Visualización en el modelo de cajas */
+  #elemento {
+    visibility: hidden; /* Ejemplo */
+  }
+  

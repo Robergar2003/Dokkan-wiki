@@ -1,0 +1,21 @@
+/* Selectores de Clase */
+.clase-ejemplo {
+    /* Estilos aquí */
+  }
+  
+  /* Selectores Compuestos */
+  #contenedor .elemento {
+    /* Estilos aquí */
+  }
+  
+  /* Propiedades del texto */
+  body {
+    text-align: center; /* Ejemplo */
+  }
+  
+  /* Anchura y altura */
+  #contenido {
+    width: 80%; /* Ejemplo */
+    height: 400px; /* Ejemplo */
+  }
+  

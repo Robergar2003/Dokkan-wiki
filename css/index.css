@@ -1,21 +1,91 @@
-div {
-    border: 2px solid lightcoral;
-  }
-  
-  div#contenedor {
-    border: 2px solid blueviolet;
-  }
-  div#cabecera {
-    border: 2px solid yellow;
-  }
-  #logo {
-    float: left;
-  }
-  #link {
-    float: right;
-    margin: 2px;
-      }
-      p{
-          clear: both;
-      }
-  
+/* Reset de estilos */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('../img/Tierra.png'); /* Reemplaza 'espacio.jpg' con la ruta de tu imagen de fondo estrellado */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Fija el fondo para que no se mueva al hacer scroll */
+}
+
+header {
+  background-color: transparent;
+  color: #fff;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+#header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 32px;
+  background: linear-gradient(to right, yellow, red); /* Degradado de amarillo a rojo */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px; /* Aumento del padding para hacer las cajas más grandes */
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: orange;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+section:hover {
+  background-color: #ccc;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+#planeta-tierra {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.8; /* Ajusta la opacidad según lo desees (0.0 a 1.0) */
+}
