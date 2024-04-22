@@ -41,3 +41,55 @@ a:hover {
 .temas-relacionados li {
   list-style-type: square;
 }
+/* Fondo de imagen */
+body {
+  background-image: url('ruta/de/tu/imagen.jpg');
+  background-size: cover; /* Para ajustar la imagen al tamaño del cuerpo */
+  background-position: center; /* Para centrar la imagen */
+}
+/* Unidades de Medidas, Unidades relativas, Unidades absolutas y Porcentajes */
+.foro-titulo {
+  font-size: 2em; /* Unidades de Medidas */
+  margin-bottom: 20px; /* Unidades relativas */
+}
+
+.mensaje {
+  padding: 10px; /* Unidades absolutas */
+  margin-bottom: 20px;
+}
+
+/* Selectores de Clase y Selectores Compuestos */
+.mensaje-usuario {
+  font-weight: bold; /* Selectores de Clase */
+}
+
+.mensaje .mensaje-contenido {
+  font-style: italic; /* Selectores Compuestos */
+}
+
+/* Pseudo-clases y Pseudo-elementos */
+.mensaje:hover {
+  background-color: #f0f0f0; /* Cambio de color al pasar el ratón */
+}
+
+/* Control de flujo de cajas */
+.foro-contenido {
+  display: flex; /* Cambio de disposición */
+  flex-wrap: wrap; /* Envolver elementos en múltiples líneas */
+}
+
+/* Posicionamiento absoluto y relativo */
+.foro-contenedor {
+  position: relative; /* Posicionamiento relativo */
+}
+
+.foro-anuncio {
+  position: absolute; /* Posicionamiento absoluto */
+  top: 20px;
+  right: 20px;
+}
+
+/* Profundidad (z-index) */
+.foro-anuncio {
+  z-index: 1;
+}

@@ -44,3 +44,42 @@ a:hover {
 .contenido-relacionado li {
   list-style-type: circle;
 }
+/* Fondo de imagen */
+body {
+  background-image: url('ruta/de/tu/imagen.jpg');
+  background-size: cover; /* Para ajustar la imagen al tamaño del cuerpo */
+  background-position: center; /* Para centrar la imagen */
+}
+.contenido {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.banner-izquierda {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  width: 200px;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.banner-derecha {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  width: 200px;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
